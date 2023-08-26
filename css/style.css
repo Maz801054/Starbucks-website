@@ -1,0 +1,62 @@
+.fstyle {
+  font-family: "Anton", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.nav-link {
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  color: #333 !important;
+  font-size: 4em !important;
+  line-height: 1.4em !important;
+  font-weight: 500 !important;
+}
+p {
+  padding-right: 50px;
+}
+span {
+  color: #017143;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.row {
+  height: 81vh;
+}
+.fa-brands {
+  font-size: 25px;
+  color: white !important;
+}
+.glas {
+  height: 450px;
+}
+.smallglas {
+  height: 80px;
+  margin-left: 50px;
+  display: inline-block;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.smallglas:hover {
+  transform: translate(0px, -20px);
+  transition: 0.5s;
+}
+.bground {
+  border-start-start-radius: 500px;
+  background-color: #017143;
+}
+@media (min-width: 300px) and (max-width: 560px) {
+  .fontsetup {
+    font-size: 10px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1200px) {
+  .fontsetup {
+    font-size: 10px;
+  }
+  .bground {
+    height: 50%;
+  }
+}
